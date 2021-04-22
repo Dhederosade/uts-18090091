@@ -5,26 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
-        <title>UTS 6B D4 Teknik Informatika</title>
+        <title>18090091</title>
     </head>
     <body>
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header bg-danger text-center">
-                    CRUD Data Pegawai - <a href="#" target="_blank"> Getar Jagat Dewantara</a>
+                    CRUD Surat Keluar - <a href="#" target="_blank"> Revan Febriansyah</a>
                 </div>
             </div>
 
                 <div class="card-body">
-                    <a href="/pegawai/tambah" class="btn btn-dark">Input Pegawai</a>                    <a href="/" class="btn btn-primary">Kembali</a>
+                    <a href="/pegawai/tambah" class="btn btn-dark">Input Surat</a>                    <a href="/" class="btn btn-primary">Kembali</a>
                     <br/>
                     <br/>
                     <table class="table table-bordered table-hover table-striped">
                         <thead>
                             <tr>
-                                <th>Nama</th>
-                                <th>Alamat</th>
-                                <th>OPSI</th>
+                                <th>Tanggal Surat</th>
+                                <th>Judul Surat</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -45,7 +45,7 @@
         </div>
          <!-- footer section start -->
     <footer>
-        <span>Created By <a href="#">Getar Jagat Dewantara</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+        <span>Created By <a href="#">Revan Febriansyah</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>
