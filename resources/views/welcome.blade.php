@@ -39,7 +39,7 @@
                 <div class="text-1">Name </div>
                 <div class="text-2">Revan Febriansyah</div>
                 <div class="text-3"><span class="typing"></span></div>
-                <a href="https://utspegawai.herokuapp.com/pegawai">Start</a>
+                <a href="https://uts-18090091.herokuapp.com/pegawai">Start</a>
             </div>
           </div>
       </div>
