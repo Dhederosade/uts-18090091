@@ -37,7 +37,7 @@
           <div class="row">
             <div class="home-content">
                 <div class="text-1">Name </div>
-                <div class="text-2">Getar Jagat Dewantara</div>
+                <div class="text-2">Revan Febriansyah</div>
                 <div class="text-3"><span class="typing"></span></div>
                 <a href="https://utspegawai.herokuapp.com/pegawai">Start</a>
             </div>
