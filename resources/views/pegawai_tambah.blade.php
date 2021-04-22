@@ -10,7 +10,7 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header bg-danger text-center">
-                    CRUD Data Pegawai - <strong>TAMBAH DATA</strong> - <a href="#" target="_blank">Getar Jagat Dewantara</a>
+                    CRUD Surat Keluar - <strong>TAMBAH DATA</strong> - <a href="#" target="_blank">Revan Febriansyah</a>
                 </div>
                 <div class="card-body">
                     <a href="/pegawai" class="btn btn-primary">Kembali</a>
@@ -34,8 +34,8 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Nama</label>
-                            <input type="text" name="nama" class="form-control" placeholder="Masukan nama pegawai">
+                            <label>Tanggal Surat</label>
+                            <input type="text" name="nama" class="form-control" placeholder="Masukan Tanggal Surat">
  
                             @if($errors->has('nama'))
                                 <div class="text-danger">
@@ -46,8 +46,8 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Alamat</label>
-                            <textarea name="alamat" class="form-control" placeholder="Masukan alamat pegawai"></textarea>
+                            <label>Judul Surat</label>
+                            <textarea name="alamat" class="form-control" placeholder="Masukan Judul Surat"></textarea>
  
                              @if($errors->has('alamat'))
                                 <div class="text-danger">
@@ -58,7 +58,7 @@
                         </div>
  
                         <div class="form-group">
-                            <input type="submit" class="btn btn-success" value="Simpan">
+                            <input type="submit" class="btn btn-primary" value="Simpan">
                         </div>
  
                     </form>
