@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
-        <title>18090091</title>
+        <title>UTS 6B D4 Teknik Informatika</title>
     </head>
     <body>
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header bg-danger text-center">
-                    CRUD Surat Keluar - <strong>EDIT DATA</strong> - <a href="#" target="_blank">Revan Febriansyah</a>
+                    CRUD Data Pegawai - <strong>EDIT DATA</strong> - <a href="#" target="_blank">Getar Jagat Dewantara</a>
                 </div>
                 <div class="card-body">
                     <a href="/pegawai" class="btn btn-primary">Kembali</a>
@@ -24,7 +24,7 @@
                         {{ method_field('PUT') }}
 
                         <div class="form-group">
-                            <label>No</label>
+                            <label>NIP</label>
                             <input type="integer" name="nip" class="form-control" placeholder="nip pegawai" value=" {{ $pegawai->nip }}">
  
                             @if($errors->has('nip'))
@@ -36,7 +36,7 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Tanggal Surat</label>
+                            <label>Nama</label>
                             <input type="text" name="nama" class="form-control" placeholder="Nama pegawai .." value=" {{ $pegawai->nama }}">
  
                             @if($errors->has('nama'))
@@ -48,7 +48,7 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Judul Surat</label>
+                            <label>Alamat</label>
                             <textarea name="alamat" class="form-control" placeholder="Alamat pegawai .."> {{ $pegawai->alamat }} </textarea>
  
                              @if($errors->has('alamat'))

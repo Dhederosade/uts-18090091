@@ -5,26 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
-        <title>18090091</title>
+        <title>UTS 6B D4 Teknik Informatika</title>
     </head>
     <body>
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header bg-danger text-center">
-                    CRUD Surat Keluar - <a href="#" target="_blank">Revan Febriansyah</a>
+                    CRUD Data Pegawai - <a href="#" target="_blank"> Getar Jagat Dewantara</a>
                 </div>
             </div>
 
                 <div class="card-body">
-                    <a href="/pegawai/tambah" class="btn btn-dark">Input Surat</a>                    <a href="/" class="btn btn-primary">Kembali</a>
+                    <a href="/pegawai/tambah" class="btn btn-dark">Input Pegawai</a>                    <a href="/" class="btn btn-primary">Kembali</a>
                     <br/>
                     <br/>
                     <table class="table table-bordered table-hover table-striped">
                         <thead>
                             <tr>
-                                <th>Tanggal Surat</th>
-                                <th>Judul Surat</th>
-                                <th>Action</th>
+                                <th>Nama</th>
+                                <th>Alamat</th>
+                                <th>OPSI</th>
                             </tr>
                         </thead>
                         <tbody>
