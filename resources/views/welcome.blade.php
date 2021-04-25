@@ -23,7 +23,7 @@
             <div class="logo"><a href="#">Surat<span>Keluar.</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="https://utspegawai.herokuapp.com/pegawai" class="menu-btn">Surat Keluar</a></li>
+                <li><a href="https://uts-18090091.herokuapp.com/pegawai" class="menu-btn">Surat Keluar</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>

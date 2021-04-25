@@ -24,7 +24,7 @@
                         {{ method_field('PUT') }}
 
                         <div class="form-group">
-                            <label>No</label>
+                            <label>No Surat</label>
                             <input type="integer" name="nip" class="form-control" placeholder="nip pegawai" value=" {{ $pegawai->nip }}">
  
                             @if($errors->has('nip'))

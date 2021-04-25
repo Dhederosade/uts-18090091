@@ -22,7 +22,7 @@
                         {{ csrf_field() }}
 
                         <div class="form-group">
-                            <label>NIP</label>
+                            <label>No Surat</label>
                             <input type="integer" name="nip" class="form-control" placeholder="Masukan No Surat">
  
                             @if($errors->has('nip'))
