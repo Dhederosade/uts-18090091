@@ -1,8 +1,7 @@
 <?php
 
+use App\Http\Controllers\BukuController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PegawaiController;
-
 
 /*
 |--------------------------------------------------------------------------
@@ -14,13 +13,20 @@ use App\Http\Controllers\PegawaiController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/pegawai', [PegawaiController::class, 'index']);
-Route::get('/pegawai/tambah', [PegawaiController::class, 'tambah']);
-Route::post('/pegawai/store', [PegawaiController::class, 'store']);
-Route::get('/pegawai/edit/{id}', [PegawaiController::class, 'edit']);
-Route::put('/pegawai/update/{id}', [PegawaiController::class, 'update']);
-Route::get('/pegawai/hapus/{id}', [PegawaiController::class, 'delete']);
-// Route::get('/pegawai', 'PegawaiController@index');
-Route::get('/', function () {
-    return view('welcome');
-});
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/','BukuController@index')->name('buku.index');
+Route::get('/buku/create','BukuController@create')->name('buku.create');
+Route::post('/buku/store','BukuController@store')->name('buku.store');
+Route::delete('/buku/{id}','BukuController@destroy')->name('buku.destroy');
+Route::get('/buku/{id}/edit','BukuController@edit')->name('buku.edit');
+Route::put('/buku/{id}','BukuController@update')->name('buku.update');
+Route::get('/cetak','BukuController@cetak')->name('buku.cetak');
+
+
+Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
